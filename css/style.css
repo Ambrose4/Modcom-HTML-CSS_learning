@@ -1,0 +1,81 @@
+h1{
+    color: aqua;
+    background-color: orange;
+    text-align: center;
+    
+}
+
+
+/* Ids and Classes */
+/* what are Ids-are used to style an individual tag/element */
+/* what are classes-used to syle a group of tags at once */
+
+/* Ids can not be repeated,classes can be repeated */
+/* Ids uses a # */
+#p2{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: overline;
+}
+#p1{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline dashed;
+}
+
+#p3{
+    color: tomato;
+    font-family: monospace;
+    text-decoration: underline;
+}
+#mission{
+    color: fuchsia;
+    background-color: yellow;
+    text-align: center;
+}
+/* classes-style a group of tags */
+/* use a dot to represent a class */
+
+.p4{
+    color: cornflowerblue;
+    font-family: serif;
+    font-size: x-large;
+    text-indent: 60px;
+    line-height: 1.5cm;
+
+}
+
+.p5{
+    color: orchid;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-decoration: line-through
+
+}
+
+.best{
+    color: gold;
+}
+
+#x{
+    background-color: blue;
+    height: 70px;
+    width: 50%;
+    float: left;
+    
+    
+    
+}
+
+#y{
+    background-color: khaki;
+    height: 70px;
+    width: 50%;
+    float: right;
+    
+}
+
+.body {
+    background-color: lightblue;
+  }
+

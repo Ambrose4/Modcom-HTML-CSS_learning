@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body bgcolor="orange">
+    <h1>EMPIRE SALON</h1>
+    <b>best braids ever...</b>
+    <br>
+    
+    <a href="home.html">Back Home </a>
+    <br>
+    <h3>Registration</h3>
+    <i>*Fill All details*</i><br>
+
+    <!-- we use form-creates forms -->
+    <!-- input-creates a specific input -->
+    <!-- above does 80% -->
+    <!-- select-creates  drop down of items -->
+    <!-- textarea-creates a bigger space to write comment -->
+    <!-- input types are many:text,number,tel,email,password,date,time,radio,checkbox,file
+    week,submit,reset-->
+    <!-- field set creates a border around your fields -->
+    <!-- leged creates a title for the fieldset -->
+
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <input type="text" placeholder="Your First Name"><br><br>
+            <input type="text" placeholder="Your Second Name"><br><br>
+            <input type="text" placeholder="Your Last Name"><br><br>
+            <input type="number" placeholder="Id No"><br><br>
+            <input type="tel" placeholder="Phone number"><br><br>
+            <input type="email" placeholder="Email"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <input type="password" placeholder="Confirm Password"><br><br>
+
+            <label for=""><b>Your Date of birth</b></label><br><br>
+            <input type="date" placeholder="Your DOB"><br><br>
+            <label for=""><b>Book Appointments</b></label><br><br>
+
+            <label for="y">Start time</label>
+            <input type="time" id="y"><br><br>
+
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Other Details</legend>
+            <label for="">Upload Your Document</label>
+            <input type="file"> <br><br>
+
+            <label for="">Your Gender</label>
+            <!-- Group the radios by giving the same names i.e x y
+            when you limit someone to choose one thing-->
+            <input type="radio" name="y"> Male
+            <input type="radio" name="y"> Female <br><br>
+            
+            <!-- no grouping in checkbox -->
+
+            <label for="">Your Interests</label>
+            <input type="checkbox">Dancing
+            <input type="checkbox">Traveling
+            <input type="checkbox">swimming <br><br>
+            <label for="">select your hair style</label><br>
+            <select name="" id="">
+                <option value="Braids">African Braids</option>
+                <option value="Dread">Dreadlocks</option>
+                <option value="Twist">Twist</option>
+            </select>
+            <br>
+            <fieldset>
+                <legend>Comments</legend>
+                <label for="">Leave your comments</label>
+                <textarea name="" id="" cols="20" rows="10"></textarea>
+            </fieldset>
+            <br>
+            <input type="range">
+            <br>    
+            <input type="submit" value="Create Account">
+            <br>
+            <input type="reset">
+
+
+
+        </fieldset>
+
+
+
+
+
+
+    </form>
+
+
+</body>
+</html>

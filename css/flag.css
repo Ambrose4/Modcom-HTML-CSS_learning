@@ -1,0 +1,47 @@
+#f1{
+    color: black;
+    background-color: black;
+    width: 70%;
+    height: 2cm;
+}
+
+#f2{
+    color: white;
+    background-color: white;
+    width: 70%;
+    height: 0.5cm;
+}
+
+#f3{
+    color: red;
+    background-color: red;
+    width: 70%;
+    height: 2cm;
+}
+
+#f4{
+    color: white;
+    background-color: white;
+    width: 70%;
+    height: 0.5cm;
+}
+    
+    
+    
+
+
+#f5{
+    color: green;
+    background-color: green;
+    width: 70%;
+    height: 2cm;
+}
+
+
+#f6{
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    
+}
